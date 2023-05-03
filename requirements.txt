@@ -1,0 +1,8 @@
+pydantic>=1.10.7
+langchain>=0.0.155
+faiss-cpu>=1.7.4
+elevenlabs>=0.2.8
+playsound==1.2.2
+streamlit>=1.22.0
+openai>=0.27.6
+tiktoken>=0.3.3
