@@ -9,6 +9,8 @@ It starts with setting up the main theme of the story (i.e. Harry Potter, Pirate
 
 Each Generative Agents have the LangChain's Time-weighted Vector Store Retriever that contains certain memories that impacts their thoughts and actions.  This was the bit of the twist in the simulation which adds additional randomness to the story due to the way they act.
 
+![whatifgpt](https://user-images.githubusercontent.com/67872688/236166451-24058391-7d02-4278-9fad-7c93ea94d5d5.svg)
+
 Originally this memory was configurable but I removed it for simplicity for the UI.  It can be added back to be configurable from the UI if you want.  This was fun and great learning experience for me, I hope you enjoy it!
 
 This project is built with
