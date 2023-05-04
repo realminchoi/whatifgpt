@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "repl_nix_whatifgpt"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.22.0"
+faiss-cpu = "^1.7.4"
+Flask = "^2.3.2"
+openai = "^0.27.6"
+Pillow = "^9.5.0"
+playsound = "^1.3.0"
+pydantic = "^1.10.7"
+langchain = "^0.0.155"
+elevenlabs = "0.2.8"
+tiktoken = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
