@@ -573,7 +573,7 @@ def main():
     os.environ['OPENAI_TEMPERATURE'] = str(openai_temperature)
     os.environ['ELEVEN_API_KEY'] = eleven_api_key
     st.title("WhatIfGPT")
-    story = st.text_input("Enter the theme of the story", "Harry Potter")
+    story = st.text_input("Enter the theme of the story", "Random Story")
     mood = "positive"
     num_agents = st.slider(
         label="Number of Agents",
